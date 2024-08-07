@@ -10,7 +10,7 @@ const projects = [
         technologiesFE: "FE: ReactJS, Tailwind",
         technologiesBE: "BE:",
         image: Portfolio,
-        github:"#"
+        github:"https://github.com/heaven-vo/heaven-portfolio"
     },
     {
         id: 2,
@@ -34,7 +34,7 @@ const projects = [
         technologiesFE: "FE: ReactJS, Flutter, Firebase",
         technologiesBE: "BE: ASP.net, MS Server, Entity Framework",
         image: Hero,
-        github:"#"
+        github:"https://github.com/heaven-vo/DeliveryVinhome/tree/master/src"
     },
     {
         id: 5,
@@ -46,11 +46,11 @@ const projects = [
     },
     {
         id: 6,
-        name: "Internship",
-        technologiesFE: "Frontend: HTML5, CSS3, ReactJS, Firebase",
-        technologiesBE: "Backend: Spring, RESTful APIs, MS Server",
+        name: "CocLearn",
+        technologiesFE: "Frontend: Flutter, Firebase",
+        technologiesBE: "Backend: ASP.NET, RESTful APIs, MS Server",
         image: Hero,
-        github:"#"
+        github:"https://github.com/heaven-vo/MentorAppCocLen"
     },
 ]
 

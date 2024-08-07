@@ -14,6 +14,18 @@ const About = () => {
                         ensuring that web applications run smoothly and efficiently from database to server, operating optimally and securely. 
                         I thrive on solving challenging problems and creating innovative solutions.
                     </p>
+                    <p className="text-lg mb-3">
+                    •	Programming Languages: Java, C#, JavaScript, HTML5, CSS3
+                    </p>
+                    <p className="text-lg mb-3">
+                    •	Frameworks/ Platforms: Spring, APS.NET, ReactJS 
+                    </p>
+                    <p className="text-lg mb-3">
+                    •	Database Management Systems: MS SQL Server, Mongo, MySQL
+                    </p>
+                    <p className="text-lg mb-3">
+                    •	Version Control: Git/SVN, Jira 
+                    </p>
                 </div>
             </div>
         </div>
