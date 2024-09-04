@@ -6,33 +6,34 @@ import Portfolio from '../assets/portfolio.png'
 const projects = [
     {
         id: 1,
+        name: "Book Social",
+        technologiesFE: "Frontend: ReactJS, Firebase",
+        technologiesBE: "Backend: Spring, MongoDB",
+        image: Hero,
+        github:"#"
+        
+    },
+    {
+        id: 2,
         name: "Heaven Portfolio",
-        technologiesFE: "FE: ReactJS, Tailwind",
-        technologiesBE: "BE:",
+        technologiesFE: "Frontend: ReactJS, Tailwind",
+        technologiesBE: "Backend: ",
         image: Portfolio,
         github:"https://github.com/heaven-vo/heaven-portfolio"
     },
     {
-        id: 2,
-        name: "Movie",
-        technologiesFE: "FE: ReactJS, Tailwind",
-        technologiesBE: "BE: Nodejs",
-        image: Movie,
-        github:"#"
-    },
-    {
         id: 3,
-        name: "",
-        technologiesFE: "Spring, ReactJS, Firebase, MS SQL Server",
-        technologiesBE: "Spring, ReactJS, Firebase, MS SQL Server",
-        image: Hero,
+        name: "My Movie",
+        technologiesFE: "Frontend: ReactJS, Tailwind",
+        technologiesBE: "Backend: Nodejs",
+        image: Movie,
         github:"#"
     },
     {
         id: 4,
         name: "CongDongChungCu",
-        technologiesFE: "FE: ReactJS, Flutter, Firebase",
-        technologiesBE: "BE: ASP.net, MS Server, Entity Framework",
+        technologiesFE: "Frontend: ReactJS, Flutter, Firebase",
+        technologiesBE: "Backend: ASP.net, MS SQL Server",
         image: Hero,
         github:"https://github.com/heaven-vo/DeliveryVinhome/tree/master/src"
     },
@@ -42,15 +43,15 @@ const projects = [
         technologiesFE: "Frontend: HTML5, CSS3, ReactJS, Firebase",
         technologiesBE: "Backend: Spring, RESTful APIs, MS Server",
         image: ALSViNa,
-        github:"#"
+        github:"https://alsvietnam.org/"
     },
     {
         id: 6,
-        name: "CocLearn",
-        technologiesFE: "Frontend: Flutter, Firebase",
-        technologiesBE: "Backend: ASP.NET, RESTful APIs, MS Server",
+        name: "Devops Project",
+        technologiesFE: "Frontend: React",
+        technologiesBE: "Backend: Spring",
         image: Hero,
-        github:"https://github.com/heaven-vo/MentorAppCocLen"
+        github:"#"
     },
 ]
 
@@ -66,6 +67,7 @@ const Project = () => {
                         <img src={project.image} alt={project.name} className='rounded-lg mb-4
                         w-full h-48 object-cover' />
                         <h3 className='text-2xl font-bold mb-2'>{project.name}</h3>
+                        <p className='text-gray-400 font-bold mb-4'>Technologies used:</p>
                         <p className='text-gray-400 mb-4'>{project.technologiesFE}</p>
                         <p className='text-gray-400 mb-4'>{project.technologiesBE}</p>
                         <a href={project.github} className='inline-block bg-gradient-to-r
