@@ -9,7 +9,7 @@ const About = () => {
                 <img src={Hero} alt="" className="w-72 h-80 rounded object-cover mb-8 md:mb-0"/> 
                 <div className="flex-1">
                     <p className="text-lg mb-8">
-                        I am a passionate Back-end Engineer Fresher with a strong foundation in backend technologies. 
+                        I am a passionate Software Engineer Fresher with a strong foundation in backend technologies. 
                         A Versatile Developer a Passion for Continuous Learning. My expertise lies in Independently design and build web infrastructure, 
                         ensuring that web applications run smoothly and efficiently from database to server, operating optimally and securely. 
                         I thrive on solving challenging problems and creating innovative solutions.
