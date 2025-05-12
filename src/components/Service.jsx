@@ -1,29 +1,31 @@
 const services = [
+
     {
         id: 1,
-        title: "Back-end Development",
-        description: "Developing robust server-side logic database",
+        title: "Devops Engineering",
+        description: "accelerates the delivery of higher-quality applications and services by combining and automating the work of software development and IT operations teams.",
     },
     {
         id: 2,
-        title: "Front-end Development",
-        description: "Building responsive and interactive user interfaces.",
+        title: "FullStack Engineering",
+        description: "Work on both front-end and back-end of applications or websites, handle all aspects of development, from web server and database management to application and user interface design.",
     },
     {
         id: 3,
-        title: "FullStack Development",
-        description: "Combining both frontend and backend development skills.",
+        title: "Back-end Engineering",
+        description: "Create, code, and improve the server, server-side applications, and databases that, when combined with front-end codes, help create a functional, seamless experience for the end-user.",
     },
     {
         id: 4,
-        title: "Devops Development",
-        description: "Developing robust server-side logic database",
+        title: "Front-end Engineering",
+        description: "Code user-side applications, including visual elements and the overall layout of websites or web applications, optimizing websites for different formats like desktops and mobile phones.",
     },
+
 ]
 
 const Service = () => {
   return (
-    <div className="bg-black text-white py-20" id="services">
+    <div className="bg-black text-white py-10" id="services">
         <div className="container mx-auto px-8 md:px-16 lg:px-24">
             <h2 className="text-4xl font-bold text-center py-10 mb:12">My Services</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

@@ -1,4 +1,6 @@
 import Hero from '../assets/Hero.png'
+import Eco from '../assets/image.png'
+
 import Movie from '../assets/Movie.png'
 import ALSViNa from '../assets/ALSVietNam.png'
 import Portfolio from '../assets/portfolio.png'
@@ -6,17 +8,17 @@ import Portfolio from '../assets/portfolio.png'
 const projects = [
     {
         id: 1,
-        name: "Book Social",
-        technologiesFE: "Frontend: ReactJS, Firebase",
-        technologiesBE: "Backend: Spring, MongoDB",
-        image: Hero,
-        github:"#"
+        name: "E-commerce",
+        technologiesFE: "Frontend: React, TypeScript, Tailwind CSS, Axios",
+        technologiesBE: "Backend: Spring Boot, MySQL, Spring Security, Restful API",
+        image: Eco,
+        github:"https://github.com/heaven-vo/ecommerce-backend-springboot"
         
     },
     {
         id: 2,
         name: "Heaven Portfolio",
-        technologiesFE: "Frontend: ReactJS, Tailwind",
+        technologiesFE: "Frontend: ReactJS, Tailwind CSS",
         technologiesBE: "Backend: ",
         image: Portfolio,
         github:"https://github.com/heaven-vo/heaven-portfolio"
@@ -24,10 +26,10 @@ const projects = [
     {
         id: 3,
         name: "My Movie",
-        technologiesFE: "Frontend: ReactJS, Tailwind",
+        technologiesFE: "Frontend: ReactJS, Tailwind CSS",
         technologiesBE: "Backend: Nodejs",
         image: Movie,
-        github:"#"
+        github:"https://github.com/heaven-vo/my-movie"
     },
     {
         id: 4,
@@ -53,11 +55,36 @@ const projects = [
         image: Hero,
         github:"#"
     },
+    {
+        id: 7,
+        name: "HeavenChat",
+        technologiesFE: "Frontend: HTML5, CSS3, ReactJS",
+        technologiesBE: "Backend: Spring, RESTful APIs",
+        image: ALSViNa,
+        github:"https://alsvietnam.org/"
+    },
+    {
+        id: 8,
+        name: "AdminPage",
+        technologiesFE: "Frontend: HTML5, CSS3, ReactJS",
+        technologiesBE: "Backend: Spring, RESTful APIs",
+        image: ALSViNa,
+        github:"https://alsvietnam.org/"
+    },
+    {
+        id: 9,
+        name: "MessageQueue",
+        technologiesFE: "Frontend: HTML5, CSS3, ReactJS",
+        technologiesBE: "Backend: Spring, RESTful APIs",
+        image: ALSViNa,
+        github:"https://alsvietnam.org/"
+    },
+    
 ]
 
 const Project = () => {
   return (
-    <div className="bg-black text-white py-20" id="projects">
+    <div className="bg-black text-white py-10" id="projects">
         <div className="container mx-auto px-8 md:px-16 lg:px-24">
             <h2 className="text-4xl font-bold text-center py-10 mb:12">My Projects</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 md:grid-cols-3 gap-8">

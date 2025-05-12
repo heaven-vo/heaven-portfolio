@@ -8,7 +8,7 @@ import Project from './components/Project'
 import Service from './components/Service'
 
 function App() {
-
+  
   return (
     <div>
       <Navbar/>
@@ -19,6 +19,7 @@ function App() {
       <Contact/>
       <Footer/>
     </div>
+    
   )
 }
 

@@ -15,19 +15,19 @@ const About = () => {
                         I thrive on solving challenging problems and creating innovative solutions.
                     </p>
                     <p className="text-lg mb-3">
-                    •	Programming Languages: Java, JavaScript
+                    •	Programming Languages: Java, JavaScript, CSS
                     </p>
                     <p className="text-lg mb-3">
                     •	Frameworks/ Library: Spring, ReactJS 
                     </p>
                     <p className="text-lg mb-3">
-                    •	Database Management Systems: MS SQL Server, MongoDB
+                    •	Database Management Systems: MS SQL Server, MySQL
                     </p>
                     <p className="text-lg mb-3">
-                    •	Version Control: Github, Jira 
+                    •	Version Control: Gitlab, Jira 
                     </p>
                     <p className="text-lg mb-3">
-                    •	Devops: Docker, Jenkins 
+                    •	Devops: Docker, Jenkins, Kubernetes  
                     </p>
                 </div>
             </div>
