@@ -1,5 +1,5 @@
 import HeroImage from '../assets/Hero.png'
-import myCV from '../assets/CV-Backend-Engineer-VoChiCong.pdf'
+import myCV from '../assets/CV-JavaBackendDevelopmentFresher-VoChiCong.pdf'
 
 const Hero = () => {
   return (
