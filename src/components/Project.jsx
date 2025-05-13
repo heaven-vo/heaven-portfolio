@@ -1,6 +1,7 @@
 import Hero from '../assets/Hero.png'
-import Eco from '../assets/image.png'
-
+import Eco from '../assets/image1.png'
+import botchat from '../assets/image2.png'
+import cdcc from '../assets/image.png'
 import Movie from '../assets/Movie.png'
 import ALSViNa from '../assets/ALSVietNam.png'
 import Portfolio from '../assets/portfolio.png'
@@ -36,7 +37,7 @@ const projects = [
         name: "CongDongChungCu",
         technologiesFE: "Frontend: ReactJS, Flutter, Firebase",
         technologiesBE: "Backend: ASP.net, MS SQL Server",
-        image: Hero,
+        image: cdcc,
         github:"https://github.com/heaven-vo/DeliveryVinhome/tree/master/src"
     },
     {
@@ -59,9 +60,9 @@ const projects = [
         id: 7,
         name: "HeavenChat",
         technologiesFE: "Frontend: HTML5, CSS3, ReactJS",
-        technologiesBE: "Backend: Spring, RESTful APIs",
-        image: ALSViNa,
-        github:"https://alsvietnam.org/"
+        technologiesBE: "Backend: Spring, RESTful APIs, Java Websocket",
+        image: botchat,
+        github:"git@github.com:heaven-vo/HeavenChatbot.git"
     },
     {
         id: 8,
