@@ -84,7 +84,7 @@ const projects = [
         technologiesFE: "Frontend: HTML5, CSS3, ReactJS",
         technologiesBE: "Backend: Spring, RESTful APIs",
         image: mesage,
-        github:"https://alsvietnam.org/"
+        github:"#"
     },
     
 ]
