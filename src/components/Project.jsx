@@ -1,9 +1,12 @@
-import Hero from '../assets/Hero.png'
 import Eco from '../assets/image1.png'
 import botchat from '../assets/image2.png'
 import cdcc from '../assets/image.png'
 import Movie from '../assets/Movie.png'
 import ALSViNa from '../assets/ALSVietNam.png'
+import Admin from '../assets/admin.png'
+import devop from '../assets/devop.png'
+
+
 import Portfolio from '../assets/portfolio.png'
 
 const projects = [
@@ -15,6 +18,22 @@ const projects = [
         image: Eco,
         github:"https://github.com/heaven-vo/ecommerce-backend-springboot"
         
+    },
+    {
+        id: 6,
+        name: "Devops Project",
+        technologiesFE: "Frontend: React",
+        technologiesBE: "Backend: Spring",
+        image: devop,
+        github:""
+    },
+     {
+        id: 4,
+        name: "CongDongChungCu",
+        technologiesFE: "Frontend: ReactJS, Flutter, Firebase",
+        technologiesBE: "Backend: ASP.net, MS SQL Server",
+        image: cdcc,
+        github:"https://github.com/heaven-vo/DeliveryVinhome/tree/master/src"
     },
     {
         id: 2,
@@ -32,14 +51,7 @@ const projects = [
         image: Movie,
         github:"https://github.com/heaven-vo/my-movie"
     },
-    {
-        id: 4,
-        name: "CongDongChungCu",
-        technologiesFE: "Frontend: ReactJS, Flutter, Firebase",
-        technologiesBE: "Backend: ASP.net, MS SQL Server",
-        image: cdcc,
-        github:"https://github.com/heaven-vo/DeliveryVinhome/tree/master/src"
-    },
+   
     {
         id: 5,
         name: "ALS VietNam",
@@ -48,14 +60,7 @@ const projects = [
         image: ALSViNa,
         github:"https://alsvietnam.org/"
     },
-    {
-        id: 6,
-        name: "Devops Project",
-        technologiesFE: "Frontend: React",
-        technologiesBE: "Backend: Spring",
-        image: Hero,
-        github:""
-    },
+    
     {
         id: 7,
         name: "HeavenChat",
@@ -69,7 +74,7 @@ const projects = [
         name: "AdminPage",
         technologiesFE: "Frontend: HTML5, CSS3, ReactJS",
         technologiesBE: "Backend:",
-        image: ALSViNa,
+        image: Admin,
         github:"https://github.com/heaven-vo/Admin-Page"
     },
     {
@@ -77,7 +82,7 @@ const projects = [
         name: "MessageQueue",
         technologiesFE: "Frontend: HTML5, CSS3, ReactJS",
         technologiesBE: "Backend: Spring, RESTful APIs",
-        image: ALSViNa,
+        image: devop,
         github:"https://alsvietnam.org/"
     },
     
