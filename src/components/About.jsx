@@ -9,7 +9,7 @@ const About = () => {
                 <img src={Hero} alt="" className="w-72 h-80 rounded object-cover mb-8 md:mb-0"/> 
                 <div className="flex-1">
                     <p className="text-lg mb-8">
-                        I am a passionate Software Engineer Fresher with a strong foundation in backend technologies. 
+                        I am a passionate Software Engineer Fresher with a strong foundation in backend technologies and devops technologies. 
                         A Versatile Developer a Passion for Continuous Learning. My expertise lies in Independently design and build web infrastructure, 
                         ensuring that web applications run smoothly and efficiently from database to server, operating optimally and securely. 
                         I thrive on solving challenging problems and creating innovative solutions.
@@ -18,16 +18,16 @@ const About = () => {
                     •	Programming Languages: Java, JavaScript, CSS
                     </p>
                     <p className="text-lg mb-3">
-                    •	Frameworks/ Library: Spring, ReactJS 
+                    •	Frameworks/ Library: Spring, ReactJS, Tailwind CSS 
                     </p>
                     <p className="text-lg mb-3">
                     •	Database Management Systems: MS SQL Server, MySQL
                     </p>
                     <p className="text-lg mb-3">
-                    •	Version Control: Gitlab, Jira 
+                    •	Version Control: Git, Gitlab, Jira 
                     </p>
                     <p className="text-lg mb-3">
-                    •	Devops: Docker, Jenkins, Kubernetes  
+                    •	Devops: Linux, Docker, Jenkins, Kubernetes  
                     </p>
                 </div>
             </div>
