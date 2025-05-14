@@ -5,6 +5,7 @@ import Movie from '../assets/Movie.png'
 import ALSViNa from '../assets/ALSVietNam.png'
 import Admin from '../assets/admin.png'
 import devop from '../assets/devop.png'
+import mesage from '../assets/mesage.png'
 
 
 import Portfolio from '../assets/portfolio.png'
@@ -82,7 +83,7 @@ const projects = [
         name: "MessageQueue",
         technologiesFE: "Frontend: HTML5, CSS3, ReactJS",
         technologiesBE: "Backend: Spring, RESTful APIs",
-        image: devop,
+        image: mesage,
         github:"https://alsvietnam.org/"
     },
     
