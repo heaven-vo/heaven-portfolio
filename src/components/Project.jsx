@@ -54,7 +54,7 @@ const projects = [
         technologiesFE: "Frontend: React",
         technologiesBE: "Backend: Spring",
         image: Hero,
-        github:"#"
+        github:""
     },
     {
         id: 7,
@@ -68,9 +68,9 @@ const projects = [
         id: 8,
         name: "AdminPage",
         technologiesFE: "Frontend: HTML5, CSS3, ReactJS",
-        technologiesBE: "Backend: Spring, RESTful APIs",
+        technologiesBE: "Backend:",
         image: ALSViNa,
-        github:"https://alsvietnam.org/"
+        github:"https://github.com/heaven-vo/Admin-Page"
     },
     {
         id: 9,
