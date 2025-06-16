@@ -86,6 +86,30 @@ const projects = [
         image: mesage,
         github:"#"
     },
+    {
+        id: 10,
+        name: "Keylogger",
+        technologiesFE: "Frontend:",
+        technologiesBE: "Backend: Python",
+        image: mesage,
+        github:"#"
+    },
+    {
+        id: 11,
+        name: "Password Strength Checker",
+        technologiesFE: "Frontend:",
+        technologiesBE: "Backend: Python",
+        image: mesage,
+        github:"#"
+    },
+    {
+        id: 12,
+        name: "SIEM",
+        technologiesFE: "Frontend:",
+        technologiesBE: "Backend: Python",
+        image: mesage,
+        github:"#"
+    },
     
 ]
 
