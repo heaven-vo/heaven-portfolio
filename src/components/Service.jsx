@@ -1,24 +1,24 @@
 const services = [
-
     {
         id: 1,
+        title: "Cyber Security Engineering",
+        description: "Code user-side applications, including visual elements and the overall layout of websites or web applications, optimizing websites for different formats like desktops and mobile phones.",
+    },
+
+    {
+        id: 2,
         title: "Devops Engineering",
         description: "accelerates the delivery of higher-quality applications and services by combining and automating the work of software development and IT operations teams.",
     },
     {
-        id: 2,
+        id: 3,
         title: "FullStack Engineering",
         description: "Work on both front-end and back-end of applications or websites, handle all aspects of development, from web server and database management to application and user interface design.",
     },
     {
-        id: 3,
+        id: 4,
         title: "Back-end Engineering",
         description: "Create, code, and improve the server, server-side applications, and databases that, when combined with front-end codes, help create a functional, seamless experience for the end-user.",
-    },
-    {
-        id: 4,
-        title: "Front-end Engineering",
-        description: "Code user-side applications, including visual elements and the overall layout of websites or web applications, optimizing websites for different formats like desktops and mobile phones.",
     },
 
 ]

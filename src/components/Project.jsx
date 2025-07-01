@@ -6,13 +6,39 @@ import ALSViNa from '../assets/ALSVietNam.png'
 import Admin from '../assets/admin.png'
 import devop from '../assets/devop.png'
 import mesage from '../assets/mesage.png'
-
+import athen_author from '../assets/authen_author.png'
+import port from '../assets/port.png'
 
 import Portfolio from '../assets/portfolio.png'
 
 const projects = [
     {
         id: 1,
+        name: "Authen-Author",
+        technologiesFE: "Language: Python ",
+        technologiesBE: "Library: bcrypt, getpass, json, datetime, socket, os, platform",
+        image: athen_author,
+        github:"https://github.com/heaven-vo/Authen-Author.git"
+    },
+    {
+        id: 2,
+        name: "Password Strength Checker",
+        technologiesFE: "Language: Python",
+        technologiesBE: "Library: re, getpass, math",
+        image: mesage,
+        github:"https://github.com/heaven-vo/Password-Strength-Checker.git"
+    },
+
+    {
+        id: 3,
+        name: "Simple Port Scanner",
+        technologiesFE: "Language: Python",
+        technologiesBE: "Libraries: socket, threading, argparse, datetime",
+        image: port,
+        github:"https://github.com/heaven-vo/Port-Scanner.git"
+    },
+    {
+        id: 9,
         name: "E-commerce",
         technologiesFE: "Frontend: React, TypeScript, Tailwind CSS, Axios",
         technologiesBE: "Backend: Spring Boot, MySQL, Spring Security, Restful API",
@@ -20,14 +46,7 @@ const projects = [
         github:"https://github.com/heaven-vo/ecommerce-backend-springboot"
         
     },
-    {
-        id: 6,
-        name: "Devops Project",
-        technologiesFE: "Frontend: React",
-        technologiesBE: "Backend: Spring",
-        image: devop,
-        github:""
-    },
+
      {
         id: 4,
         name: "CongDongChungCu",
@@ -37,7 +56,7 @@ const projects = [
         github:"https://github.com/heaven-vo/DeliveryVinhome/tree/master/src"
     },
     {
-        id: 2,
+        id: 6,
         name: "Heaven Portfolio",
         technologiesFE: "Frontend: ReactJS, Tailwind CSS",
         technologiesBE: "Backend: ",
@@ -78,30 +97,16 @@ const projects = [
         image: Admin,
         github:"https://github.com/heaven-vo/Admin-Page"
     },
-    {
-        id: 9,
-        name: "MessageQueue",
-        technologiesFE: "Frontend: HTML5, CSS3, ReactJS",
-        technologiesBE: "Backend: Spring, RESTful APIs",
-        image: mesage,
-        github:"#"
-    },
+
     {
         id: 10,
         name: "Keylogger",
         technologiesFE: "Frontend:",
         technologiesBE: "Backend: Python",
-        image: mesage,
+        image: devop,
         github:"#"
     },
-    {
-        id: 11,
-        name: "Password Strength Checker",
-        technologiesFE: "Frontend:",
-        technologiesBE: "Backend: Python",
-        image: mesage,
-        github:"#"
-    },
+
     {
         id: 12,
         name: "SIEM",

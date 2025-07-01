@@ -15,7 +15,7 @@ const About = () => {
                         I thrive on solving challenging problems and creating innovative solutions.
                     </p>
                     <p className="text-lg mb-3">
-                    •	Programming Languages: Python, Java, JavaScript
+                    •	Programming Languages: Python, Bash, SQL, Java, JavaScript
                     </p>
                     <p className="text-lg mb-3">
                     •	Frameworks/ Library: Spring, ReactJS, Tailwind CSS 
