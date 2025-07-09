@@ -15,7 +15,7 @@ const About = () => {
                         I thrive on solving challenging problems and creating innovative solutions.
                     </p>
                     <p className="text-lg mb-3">
-                    •	Programming Languages: Python, Bash, SQL, Java, JavaScript
+                    •	Scripting & Programming: Python, Bash, SQL, Java, JavaScript
                     </p>
                     <p className="text-lg mb-3">
                     •	Frameworks/ Library: Spring, ReactJS, Tailwind CSS 
@@ -27,7 +27,16 @@ const About = () => {
                     •	Version Control: Git, Gitlab, Jira 
                     </p>
                     <p className="text-lg mb-3">
-                    •	Devops: Linux, Docker, Jenkins, Kubernetes  
+                    •	Devops: Docker, Jenkins, Kubernetes  
+                    </p>
+                    <p className="text-lg mb-3">
+                    •	Operating Systems: Linux, Window Server
+                    </p>
+                    <p className="text-lg mb-3">
+                    •	Core Concepts: Authentication & Authorization, CIA Triad, Encryption & Hashing 
+                    </p>
+                    <p className="text-lg mb-3">
+                    •	Cloud & SIEM: AWS 
                     </p>
                 </div>
             </div>

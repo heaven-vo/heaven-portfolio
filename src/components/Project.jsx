@@ -3,8 +3,6 @@ import botchat from '../assets/image2.png'
 import cdcc from '../assets/image.png'
 import Movie from '../assets/Movie.png'
 import ALSViNa from '../assets/ALSVietNam.png'
-import Admin from '../assets/admin.png'
-import devop from '../assets/devop.png'
 import mesage from '../assets/mesage.png'
 import athen_author from '../assets/authen_author.png'
 import port from '../assets/port.png'
@@ -40,8 +38,8 @@ const projects = [
     {
         id: 9,
         name: "E-commerce",
-        technologiesFE: "Frontend: React, TypeScript, Tailwind CSS, Axios",
-        technologiesBE: "Backend: Spring Boot, MySQL, Spring Security, Restful API",
+        technologiesFE: "Frontend: TypeScript, Tailwind CSS, Axios",
+        technologiesBE: "Backend: Spring, Restful API, MySQL",
         image: Eco,
         github:"https://github.com/heaven-vo/ecommerce-backend-springboot"
         
@@ -85,37 +83,10 @@ const projects = [
         id: 7,
         name: "HeavenChat",
         technologiesFE: "Frontend: HTML5, CSS3, ReactJS",
-        technologiesBE: "Backend: Spring, RESTful APIs, Java Websocket",
+        technologiesBE: "Backend: Spring, RESTful APIs, Websocket",
         image: botchat,
         github:"git@github.com:heaven-vo/HeavenChatbot.git"
-    },
-    {
-        id: 8,
-        name: "AdminPage",
-        technologiesFE: "Frontend: HTML5, CSS3, ReactJS",
-        technologiesBE: "Backend:",
-        image: Admin,
-        github:"https://github.com/heaven-vo/Admin-Page"
-    },
-
-    {
-        id: 10,
-        name: "Keylogger",
-        technologiesFE: "Frontend:",
-        technologiesBE: "Backend: Python",
-        image: devop,
-        github:"#"
-    },
-
-    {
-        id: 12,
-        name: "SIEM",
-        technologiesFE: "Frontend:",
-        technologiesBE: "Backend: Python",
-        image: mesage,
-        github:"#"
-    },
-    
+    },  
 ]
 
 const Project = () => {

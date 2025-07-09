@@ -2,13 +2,13 @@ const services = [
     {
         id: 1,
         title: "Cyber Security Engineering",
-        description: "Code user-side applications, including visual elements and the overall layout of websites or web applications, optimizing websites for different formats like desktops and mobile phones.",
+        description: "Applies engineering principles to the design, implementation, maintenance, and evaluation of secure systems, ensuring the integrity, confidentiality, and availability of information.",
     },
 
     {
         id: 2,
         title: "Devops Engineering",
-        description: "accelerates the delivery of higher-quality applications and services by combining and automating the work of software development and IT operations teams.",
+        description: "Accelerates the delivery of higher-quality applications and services by combining and automating the work of software development and IT operations teams.",
     },
     {
         id: 3,
