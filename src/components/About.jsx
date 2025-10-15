@@ -15,25 +15,25 @@ const About = () => {
                         I thrive on solving challenging problems and creating innovative solutions.
                     </p>
                     <p className="text-lg mb-3">
-                    •	Scripting & Programming: Python, Bash, SQL, Java, JavaScript
+                    •	Scripting & Programming: Java, JavaScript, Bash
                     </p>
                     <p className="text-lg mb-3">
                     •	Frameworks/ Library: Spring, ReactJS, Tailwind CSS 
                     </p>
                     <p className="text-lg mb-3">
-                    •	Database Management Systems: MS SQL Server, MySQL
+                    •	Database Management Systems: MS SQL Server, PostgreSQL
                     </p>
                     <p className="text-lg mb-3">
-                    •	Version Control: Git, Gitlab, Jira 
+                    •	Version Control: Git, Jira 
                     </p>
                     <p className="text-lg mb-3">
-                    •	Devops: Docker, Jenkins, Kubernetes  
+                    •	Devops: Docker, Kubernetes  
                     </p>
                     <p className="text-lg mb-3">
                     •	Operating Systems: Linux, Window Server
                     </p>
                     <p className="text-lg mb-3">
-                    •	Core Concepts: Authentication & Authorization, CIA Triad, Encryption & Hashing 
+                    •	Core Concepts: Authentication & Authorization, Encryption & Hashing 
                     </p>
                     <p className="text-lg mb-3">
                     •	Cloud & SIEM: AWS 
