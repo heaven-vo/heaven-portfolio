@@ -33,9 +33,6 @@ const About = () => {
                     •	Operating Systems: Linux, Window Server
                     </p>
                     <p className="text-lg mb-3">
-                    •	Core Concepts: Authentication & Authorization, Encryption & Hashing 
-                    </p>
-                    <p className="text-lg mb-3">
                     •	Cloud & SIEM: AWS 
                     </p>
                 </div>
