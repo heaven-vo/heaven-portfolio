@@ -1,14 +1,13 @@
 const services = [
     {
         id: 1,
-        title: "Cyber Security Engineering",
-        description: "Applies engineering principles to the design, implementation, maintenance, and evaluation of secure systems, ensuring the integrity, confidentiality, and availability of information.",
+        title: "Back-end Engineering",
+        description: "Architecting high-performance distributed systems using Spring Boot and gRPC. Focused on building scalable RESTful APIs, optimizing database schemas (PostgreSQL), and ensuring low-latency inter-service communication.",
     },
-
     {
         id: 2,
         title: "Devops Engineering",
-        description: "Accelerates the delivery of higher-quality applications and services by combining and automating the work of software development and IT operations teams.",
+        description: "Streamlining software delivery through automated CI/CD pipelines (GitHub Actions). Expert in containerization with Docker & Kubernetes to ensure consistent environment deployment and high availability.",
     },
     {
         id: 3,
@@ -17,8 +16,8 @@ const services = [
     },
     {
         id: 4,
-        title: "Back-end Engineering",
-        description: "Create, code, and improve the server, server-side applications, and databases that, when combined with front-end codes, help create a functional, seamless experience for the end-user.",
+        title: "Cyber Security Engineering",
+        description: "Implementing robust security layers based on NIST/OWASP standards. Skilled in identity management (JWT/RBAC), Bcrypt hashing, and developing behavioral anomaly detection to mitigate common cyber-attacks.",
     },
 
 ]

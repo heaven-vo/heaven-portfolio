@@ -1,5 +1,5 @@
 import HeroImage from '../assets/Hero.png'
-import myCV from '../assets/CV-CyberSecurityEngineer-VoChiCong.pdf'
+import myCV from '../assets/CV-BackendEngineer-VoChiCong.pdf'
 
 const Hero = () => {
   return (
@@ -11,14 +11,14 @@ const Hero = () => {
             , Back-end Engineer Fresher
         </h1>
         <p className='mt-4 text-lg text-gray-300'>
-        I specialize in building and response web application
+        I specialize in architecting high-performance Backend systems and Scalable Microservices.
         </p>
         <div className='mt-8 space-x-4'>
             <a href="https://www.linkedin.com/in/congdev/">
             <button className="bg-gradient-to-r from-green-400 to-blue-500 text-white hidden md:inline
             transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full">Contact With Me</button>
             </a>
-            <a href={myCV} download="CV_VOCHICONG" target="_blank" rel="noreferrer">
+            <a href={myCV} download="CV-BackendEngineer-VoChiCong" target="_blank" rel="noreferrer">
             <button className="bg-gradient-to-r from-pink-500 to-yellow-500 text-white hidden md:inline
             transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full" >Resume</button>
             </a>

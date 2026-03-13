@@ -1,92 +1,46 @@
-import Eco from '../assets/image1.png'
-import botchat from '../assets/image2.png'
 import cdcc from '../assets/image.png'
-import Movie from '../assets/Movie.png'
 import ALSViNa from '../assets/ALSVietNam.png'
 import mesage from '../assets/mesage.png'
 import athen_author from '../assets/authen_author.png'
-import port from '../assets/port.png'
-
-import Portfolio from '../assets/portfolio.png'
 
 const projects = [
     {
         id: 1,
-        name: "Authen-Author",
-        technologiesFE: "Language: Python ",
-        technologiesBE: "Library: bcrypt, getpass, json, datetime, socket, os, platform",
-        image: athen_author,
-        github:"https://github.com/heaven-vo/Authen-Author.git"
+        name: "Patient Management System",
+        Tagline: "Advanced Identity & Access Management",
+        technologies: "Java, Spring Boot 3, gRPC, PostgreSQL, Docker",
+        Description: "Designed a high-performance Microservices architecture to manage clinical records and billing. Optimized inter-service communication using gRPC and Protocol Buffers, significantly reducing network latency compared to REST.",
+        image: mesage,
+        github:"https://github.com/heaven-vo/patient-management-system"
     },
     {
         id: 2,
-        name: "Password Strength Checker",
-        technologiesFE: "Language: Python",
-        technologiesBE: "Library: re, getpass, math",
-        image: mesage,
-        github:"https://github.com/heaven-vo/Password-Strength-Checker.git"
-    },
-
-    {
-        id: 3,
-        name: "Simple Port Scanner",
-        technologiesFE: "Language: Python",
-        technologiesBE: "Libraries: socket, threading, argparse, datetime",
-        image: port,
-        github:"https://github.com/heaven-vo/Port-Scanner.git"
-    },
-    {
-        id: 9,
-        name: "E-commerce",
-        technologiesFE: "Frontend: TypeScript, Tailwind CSS, Axios",
-        technologiesBE: "Backend: Spring, Restful API, MySQL",
-        image: Eco,
-        github:"https://github.com/heaven-vo/ecommerce-backend-springboot"
-        
-    },
-
-     {
-        id: 4,
-        name: "CongDongChungCu",
-        technologiesFE: "Frontend: ReactJS, Flutter, Firebase",
-        technologiesBE: "Backend: ASP.net, MS SQL Server",
+        name: "DeliveryVinhome (Capstone Project)",
+        Tagline: "Advanced Identity & Access Management",
+        technologies: "Node.js, Entity Framework, React, Flutter, Firebase",
+        Description: "An end-to-end delivery ecosystem for high-rise buildings. Developed a specialized Route Optimization Algorithm to improve delivery efficiency. Integrated Firebase Cloud Messaging for real-time order tracking across 4 platforms.",
         image: cdcc,
-        github:"https://github.com/heaven-vo/DeliveryVinhome/tree/master/src"
-    },
-    {
-        id: 6,
-        name: "Heaven Portfolio",
-        technologiesFE: "Frontend: ReactJS, Tailwind CSS",
-        technologiesBE: "Backend: ",
-        image: Portfolio,
-        github:"https://github.com/heaven-vo/heaven-portfolio"
-    },
+        github:"https://github.com/heaven-vo/DeliveryVinhome"
+    },  
     {
         id: 3,
-        name: "My Movie",
-        technologiesFE: "Frontend: ReactJS, Tailwind CSS",
-        technologiesBE: "Backend: Nodejs",
-        image: Movie,
-        github:"https://github.com/heaven-vo/my-movie"
-    },
-   
-    {
-        id: 5,
-        name: "ALS VietNam",
-        technologiesFE: "Frontend: HTML5, CSS3, ReactJS, Firebase",
-        technologiesBE: "Backend: Spring, RESTful APIs, MS Server",
+        name: "System Migration & Web Optimization (ALS Vietnam)",
+        Tagline: "Advanced Identity & Access Management",
+        technologies: "Java, .NET Framework, SQL Server, Web API.",
+        Description: "Collaborated with ALS Vietnam on a critical system migration project. I was responsible for porting complex legacy Java business logic to the .NET framework while ensuring zero data loss and feature parity.",
         image: ALSViNa,
         github:"https://alsvietnam.org/"
     },
-    
     {
-        id: 7,
-        name: "HeavenChat",
-        technologiesFE: "Frontend: HTML5, CSS3, ReactJS",
-        technologiesBE: "Backend: Spring, RESTful APIs, Websocket",
-        image: botchat,
-        github:"git@github.com:heaven-vo/HeavenChatbot.git"
-    },  
+        id: 2,
+        name: "Authen-Author (Security focused)",
+        Tagline: "Advanced Identity & Access Management",
+        technologies: "Python, Bcrypt, NIST/OWASP Standards.",
+        Description: "A secure authentication system focused on mitigating cyber-attacks. Implemented brute-force protection, anomaly detection, and secure session monitoring based on industry-standard security practices.",
+        image: athen_author,
+        github:"https://github.com/heaven-vo/Authen-Author"
+    },
+
 ]
 
 const Project = () => {
@@ -101,9 +55,9 @@ const Project = () => {
                         <img src={project.image} alt={project.name} className='rounded-lg mb-4
                         w-full h-48 object-cover' />
                         <h3 className='text-2xl font-bold mb-2'>{project.name}</h3>
-                        <p className='text-gray-400 font-bold mb-4'>Technologies used:</p>
-                        <p className='text-gray-400 mb-4'>{project.technologiesFE}</p>
-                        <p className='text-gray-400 mb-4'>{project.technologiesBE}</p>
+                        <p className='text-gray-400 mb-4'>{project.Tagline}</p>
+                        <p className='text-gray-400 mb-4'>{project.technologies}</p>
+                        <p className='text-gray-400 mb-4'>{project.Description}</p>
                         <a href={project.github} className='inline-block bg-gradient-to-r
                         from-green-400 to-blue-500 text-white px-4 py-2 rounded-full' target='_blank' rel='noopener noreferrer'>GitHub</a>
                     </div>
