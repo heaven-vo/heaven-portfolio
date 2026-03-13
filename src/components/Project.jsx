@@ -1,7 +1,8 @@
 import cdcc from '../assets/image.png'
 import ALSViNa from '../assets/ALSVietNam.png'
-import mesage from '../assets/mesage.png'
 import athen_author from '../assets/authen_author.png'
+import patient from '../assets/patient.PNG'
+
 
 const projects = [
     {
@@ -10,7 +11,7 @@ const projects = [
         Tagline: "Advanced Identity & Access Management",
         technologies: "Java, Spring Boot 3, gRPC, PostgreSQL, Docker",
         Description: "Designed a high-performance Microservices architecture to manage clinical records and billing. Optimized inter-service communication using gRPC and Protocol Buffers, significantly reducing network latency compared to REST.",
-        image: mesage,
+        image: patient,
         github:"https://github.com/heaven-vo/patient-management-system"
     },
     {
@@ -24,7 +25,7 @@ const projects = [
     },  
     {
         id: 3,
-        name: "System Migration & Web Optimization (ALS Vietnam)",
+        name: "System Migration & Web Optimization",
         Tagline: "Advanced Identity & Access Management",
         technologies: "Java, .NET Framework, SQL Server, Web API.",
         Description: "Collaborated with ALS Vietnam on a critical system migration project. I was responsible for porting complex legacy Java business logic to the .NET framework while ensuring zero data loss and feature parity.",
