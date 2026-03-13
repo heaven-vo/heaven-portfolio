@@ -1,4 +1,4 @@
-import cdcc from '../assets/image.png'
+import cap from '../assets/image.png'
 import ALSViNa from '../assets/ALSVietNam.png'
 import athen_author from '../assets/authen_author.png'
 import patient from '../assets/patient.png'
@@ -19,7 +19,7 @@ const projects = [
         Tagline: "Advanced Identity & Access Management",
         technologies: "Node.js, Entity Framework, React, Flutter, Firebase",
         Description: "An end-to-end delivery ecosystem for high-rise buildings. Developed a specialized Route Optimization Algorithm to improve delivery efficiency. Integrated Firebase Cloud Messaging for real-time order tracking across 4 platforms.",
-        image: cdcc,
+        image: cap,
         github:"https://github.com/heaven-vo/DeliveryVinhome"
     },  
     {
