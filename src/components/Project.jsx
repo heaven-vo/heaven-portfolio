@@ -1,7 +1,7 @@
 import cap from '../assets/image.png'
 import ALSViNa from '../assets/ALSVietNam.png'
 import athen_author from '../assets/authen_author.png'
-import patient from '../assets/patient.png'
+import Patient from '../assets/Patient.png'
 
 const projects = [
     {
@@ -10,7 +10,7 @@ const projects = [
         Tagline: "Advanced Identity & Access Management",
         technologies: "Java, Spring Boot 3, gRPC, PostgreSQL, Docker",
         Description: "Designed a high-performance Microservices architecture to manage clinical records and billing. Optimized inter-service communication using gRPC and Protocol Buffers, significantly reducing network latency compared to REST.",
-        image: patient,
+        image: Patient,
         github:"https://github.com/heaven-vo/patient-management-system"
     },
     {
