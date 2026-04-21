@@ -1,7 +1,7 @@
 import cap from '../assets/image.png'
 import ALSViNa from '../assets/ALSVietNam.png'
 import athen_author from '../assets/authen_author.png'
-import patient from './assets/patient.png'
+import patient from '../assets/patient.png'
 
 const projects = [
     {
