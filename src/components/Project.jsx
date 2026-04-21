@@ -6,38 +6,38 @@ import Patient from '../assets/Patient.png'
 const projects = [
     {
         id: 1,
-        name: "Patient Management System",
+        Name: "Patient Management System",
         Tagline: "Advanced Identity & Access Management",
-        technologies: "Java, Spring Boot 3, gRPC, PostgreSQL, Docker",
+        Technologies: "Java, Spring Boot 3, gRPC, PostgreSQL, Docker",
         Description: "Designed a high-performance Microservices architecture to manage clinical records and billing. Optimized inter-service communication using gRPC and Protocol Buffers, significantly reducing network latency compared to REST.",
-        image: Patient,
+        Image: Patient,
         github:"https://github.com/heaven-vo/patient-management-system"
     },
     {
         id: 2,
-        name: "DeliveryVinhome (Capstone Project)",
+        Name: "DeliveryVinhome (Capstone Project)",
         Tagline: "Advanced Identity & Access Management",
-        technologies: "Node.js, Entity Framework, React, Flutter, Firebase",
+        Technologies: "Node.js, Entity Framework, React, Flutter, Firebase",
         Description: "An end-to-end delivery ecosystem for high-rise buildings. Developed a specialized Route Optimization Algorithm to improve delivery efficiency. Integrated Firebase Cloud Messaging for real-time order tracking across 4 platforms.",
-        image: cap,
+        Image: cap,
         github:"https://github.com/heaven-vo/DeliveryVinhome"
     },  
     {
         id: 3,
-        name: "System Migration & Web Optimization",
+        Name: "System Migration & Web Optimization",
         Tagline: "Advanced Identity & Access Management",
-        technologies: "Java, .NET Framework, SQL Server, Web API.",
+        Technologies: "Java, .NET Framework, SQL Server, Web API.",
         Description: "Collaborated with ALS Vietnam on a critical system migration project. I was responsible for porting complex legacy Java business logic to the .NET framework while ensuring zero data loss and feature parity.",
-        image: ALSViNa,
+        Image: ALSViNa,
         github:"https://alsvietnam.org/"
     },
     {
         id: 2,
-        name: "Authen-Author (Security focused)",
+        Name: "Authen-Author (Security focused)",
         Tagline: "Advanced Identity & Access Management",
-        technologies: "Python, Bcrypt, NIST/OWASP Standards.",
+        Technologies: "Python, Bcrypt, NIST/OWASP Standards.",
         Description: "A secure authentication system focused on mitigating cyber-attacks. Implemented brute-force protection, anomaly detection, and secure session monitoring based on industry-standard security practices.",
-        image: athen_author,
+        Image: athen_author,
         github:"https://github.com/heaven-vo/Authen-Author"
     },
 
@@ -52,11 +52,11 @@ const Project = () => {
                 {projects.map((project) => (
                     <div key={project.id} className='bg-gray-800 p-6 rounded-lg hover:shadow-lg
                     transform transition-transform duration-300 hover:scale-105'>
-                        <img src={project.image} alt={project.name} className='rounded-lg mb-4
+                        <img src={project.Image} alt={project.Name} className='rounded-lg mb-4
                         w-full h-48 object-cover' /> 
-                        <h3 className='text-2xl font-bold mb-2'>{project.name}</h3>
+                        <h3 className='text-2xl font-bold mb-2'>{project.Name}</h3>
                         <p className='text-gray-400 mb-4'>{project.Tagline}</p>
-                        <p className='text-gray-400 mb-4'>{project.technologies}</p>
+                        <p className='text-gray-400 mb-4'>{project.Technologies}</p>
                         <p className='text-gray-400 mb-4'>{project.Description}</p>
                         <a href={project.github} className='inline-block bg-gradient-to-r
                         from-green-400 to-blue-500 text-white px-4 py-2 rounded-full' target='_blank' rel='noopener noreferrer'>GitHub</a>
