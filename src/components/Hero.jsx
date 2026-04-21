@@ -11,7 +11,7 @@ const Hero = () => {
             , Software Engineer Fresher
         </h1>
         <p className='mt-4 text-lg text-gray-300'>
-        I specialize in architecting high-performance Backend systems and Scalable Microservices.
+        I specialize in architecting high-performance Backend systems and Scalable Microservices..
         </p>
         <div className='mt-8 space-x-4'>
             <a href="https://www.linkedin.com/in/heavenvo/">
